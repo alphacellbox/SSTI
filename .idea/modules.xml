@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SSTI/SSTI.iml" filepath="$PROJECT_DIR$/SSTI/SSTI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ssti.iml" filepath="$PROJECT_DIR$/.idea/ssti.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,23 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:remove="all">Template for HTML email</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<p>
+<h1>Welcome, [[${name}]]!</h1>
+    Hello, <span th:text="${T(java.lang.System).getenv()}">Peter Static</span>!
+<!--////////////////////////////////-->
+<!--    Hello, <span th:text="${-->
+<!--          a}"></span><span th:text="${T(java.lang.System).getenv()}">Peter Static</span><span th:text="${a-->
+<!--}">Peter Static</span>!-->
+<!--////////////////////////////////-->
+Hello, <span th:text="${
+         name
+}">Peter Static</span>!
+
+</p>
+
+
+</body>
+</html>
